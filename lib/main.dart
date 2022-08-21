@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challengies/called_video_confrence_ui_design/splash.dart';
+import 'package:flutter_ui_challengies/called_video_confrence_ui_design/screens/splash.dart';
 
 void main() {
   runApp(const MyApp());

@@ -22,12 +22,16 @@ class _MyWidgetState extends State<Splash> {
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
+              // logo
               Container(
                 margin: const EdgeInsets.symmetric(horizontal: 450),
                 child: Image.asset(
                   'assets/images/logo.png',
                 ),
               ),
+
+              // loading widget
               Flexible(
                 child: LoadingAnimationWidget.inkDrop(
                   color: AppColors.lightPurple,
