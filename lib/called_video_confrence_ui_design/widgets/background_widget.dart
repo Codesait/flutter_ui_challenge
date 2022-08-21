@@ -27,8 +27,9 @@ class CallBg extends StatelessWidget {
             top: 70,
             left: -100,
             child: Aurora(
-              size: 900,
+              size: 800,
               colors: AppColors.bgGradient,
+              blur: 900,
             ),
           ),
           SizedBox(
