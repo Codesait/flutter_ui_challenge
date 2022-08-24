@@ -38,10 +38,13 @@ class _MyWidgetState extends State<Splash> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // logo
-              Container(
-                margin: const EdgeInsets.symmetric(horizontal: 450),
-                child: Image.asset(
-                  'assets/images/logo.png',
+              Hero(
+                tag: 'splash_logo',
+                child: Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 450),
+                  child: Image.asset(
+                    'assets/images/logo.png',
+                  ),
                 ),
               ),
 

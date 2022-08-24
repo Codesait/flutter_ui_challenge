@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_ui_challengies/called_video_confrence_ui_design/screens/splash.dart';
 
 void main() {
+   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,overlays:[
+    SystemUiOverlay.bottom
+  ]);
+
   runApp(const MyApp());
 }
 
